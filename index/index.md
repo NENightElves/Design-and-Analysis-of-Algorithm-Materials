@@ -7,6 +7,7 @@
 ### [Lec1 - Complexity](lec1.html)（复杂度分析）
 ### [Lec2 - Simulation and Enumeration](lec2.html)（模拟与穷举）
 ### [Lec3 - Recursion](lec3.html)（递归）
+### [Lec4 - Divide and Conquer](lec4.html)（分治）
 
 ## Labs
 ### [Lab1 - Simulation and Enumeration](lab1.html)（模拟与穷举）
