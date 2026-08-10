@@ -1,2 +1,3 @@
-tasks="lec0 lec1 lec2 lec3"
+marps="lec0 lec1 lec2 lec3"
 theme="./theme/beam.css"
+mds="lab1"
