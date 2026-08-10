@@ -1,6 +1,7 @@
 ---
 marp: true
 size: 4:3
+math: mathjax
 theme: beam
 header: 模拟与穷举
 footer: 算法设计与分析
