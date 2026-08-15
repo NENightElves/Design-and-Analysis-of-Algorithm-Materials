@@ -44,21 +44,17 @@ mat = [[0 for j in range(n)] for i in range(n)]
 
 #### 提示1：
 
-<div>
-$$
+```math
 a^b \% k = (a \% k) ^ b \% k
-$$
-</div>
+```
 
-<div>
-$$
+```math
 a^b \% k = 
 \begin{cases}
     (a \cdot a)^{\frac{b}{2}} \% k & \text{if } b \% 2 == 0 \\
     \left( (a \cdot a)^{\frac{b-1}{2}} \cdot a \right) \% k & \text{if } b \% 2 == 1
 \end{cases}
-$$
-</div>
+```
 
 #### 提示2
 在适当位置插入取余，防止溢出。

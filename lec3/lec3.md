@@ -1,7 +1,7 @@
 ---
 marp: true
 size: 4:3
-math: mathjax
+math: katex
 theme: beam
 header: 递归
 footer: 算法设计与分析
