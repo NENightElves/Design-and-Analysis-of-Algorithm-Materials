@@ -43,9 +43,14 @@ mat = [[0 for j in range(n)] for i in range(n)]
 3. 分析算法的时间复杂度，寻找时间差距的原因。
 
 #### 提示1：
+
+<div>
 $$
 a^b \% k = (a \% k) ^ b \% k
 $$
+</div>
+
+<div>
 $$
 a^b \% k = 
 \begin{cases}
@@ -53,5 +58,7 @@ a^b \% k =
     \left( (a \cdot a)^{\frac{b-1}{2}} \cdot a \right) \% k & \text{if } b \% 2 == 1
 \end{cases}
 $$
+</div>
+
 #### 提示2
 在适当位置插入取余，防止溢出。
