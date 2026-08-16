@@ -1,3 +1,4 @@
+<title>实验三：分治</title>
 <div style="text-align:center">
 <p style="font-size: 48px;">算法设计与分析<p>
 <p style="font-size: 24px; line-height: 0">实验三：分治</p>
