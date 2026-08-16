@@ -1,3 +1,4 @@
+<title>算法设计与分析 - 课程资料</title>
 <div style="text-align:center">
 <p style="font-size: 48px;">算法设计与分析 - 课程资料<p>
 </div>
