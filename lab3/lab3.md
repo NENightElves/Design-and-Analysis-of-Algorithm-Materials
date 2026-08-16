@@ -37,7 +37,7 @@ mat = [[0 for j in range(n)] for i in range(n)]
 ```
 
 ## 4. 思考题
-求 $a^b \% k$
+求 $a^b \bmod k$
 1. 使用穷举法，并尝试使用分治法进行优化。
 2. 使用不同的 $a$, $b$, $k$，比较算法时间上的区别。（ $a$, $b$, $k$ 需要取较大的值）
 3. 分析算法的时间复杂度，寻找时间差距的原因。
@@ -45,14 +45,14 @@ mat = [[0 for j in range(n)] for i in range(n)]
 #### 提示1：
 
 ```math
-a^b \% k = (a \% k) ^ b \% k
+a^b \bmod k = (a \bmod k) ^ b \bmod k
 ```
 
 ```math
-a^b \% k = 
+a^b \bmod k = 
 \begin{cases}
-    (a \cdot a)^{\frac{b}{2}} \% k & \text{if } b \% 2 == 0 \\
-    \left( (a \cdot a)^{\frac{b-1}{2}} \cdot a \right) \% k & \text{if } b \% 2 == 1
+    (a \cdot a)^{\frac{b}{2}} \bmod k & \text{if } b \bmod 2 == 0 \\
+    \left( (a \cdot a)^{\frac{b-1}{2}} \cdot a \right) \bmod k & \text{if } b \bmod 2 == 1
 \end{cases}
 ```
 
