@@ -13,7 +13,7 @@ for d in ${marps}; do
 done
 
 for d in ${mds}; do
-    npx --yes markdown-to-html-cli --source <(cat math-template.html ${d}/${d}.md) --output dist/${d}.html
+    npx --yes markdown-to-html-cli --source <(cat ${d}/${d}.md math-template.html) --output dist/${d}.html
     if [ -d ${d}/${d}-assets ]; then
         cp -r ${d}/${d}-assets dist
     fi
